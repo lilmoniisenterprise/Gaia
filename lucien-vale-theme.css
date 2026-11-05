@@ -1,0 +1,118 @@
+/* ==========================================================
+   LUCIEN VALE — "Venom Argyle" Gaia profile theme
+   Paste into: Account Settings > Profile Options > Theme Override
+   Rule-safe: every selector is scoped to #content (below the
+   header). Nothing touches #gaia_header or the two nav bars.
+   ========================================================== */
+
+/* ---- Page area below the header ---- */
+#content {
+  background-color: #0b0b0d;
+  background-image:
+    linear-gradient(45deg, rgba(57,255,20,.07) 25%, transparent 25%, transparent 75%, rgba(57,255,20,.07) 75%),
+    linear-gradient(45deg, rgba(57,255,20,.07) 25%, transparent 25%, transparent 75%, rgba(57,255,20,.07) 75%);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+  color: #d8d8d8;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+/* ---- Panels: "Current" (.panel) and "Classic" (.dropBox) ---- */
+#content .panel,
+#content .dropBox {
+  background: rgba(14,14,16,.92);
+  border: 1px solid #1f3d14;
+  border-top: 3px solid #39ff14;
+  border-radius: 6px;
+  box-shadow: 0 0 12px rgba(57,255,20,.18), inset 0 0 20px rgba(0,0,0,.6);
+  margin-bottom: 14px;
+}
+
+/* ---- Panel titles ---- */
+#content .panel h2,
+#content .dropBox h3 {
+  background: linear-gradient(90deg, #0f1f0a, #111 70%);
+  color: #39ff14;
+  font-family: "Trebuchet MS", Georgia, serif;
+  font-size: 15px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: 0 0 6px rgba(57,255,20,.7);
+  border-bottom: 1px solid #8b0000;
+  padding: 6px 10px;
+  margin: 0;
+}
+
+/* ---- Text & links ---- */
+#content p,
+#content li,
+#content td,
+#content dd,
+#content dt {
+  color: #d8d8d8;
+}
+
+#content a,
+#content a:visited {
+  color: #7dff5c;
+  text-decoration: none;
+}
+
+#content a:hover {
+  color: #ff2e3b;          /* red, like his eyes */
+  text-shadow: 0 0 5px rgba(255,46,59,.6);
+}
+
+#content strong,
+#content b {
+  color: #ff2e3b;
+}
+
+/* ---- Comments ---- */
+#content .comment,
+#content .dropBlock {
+  background: rgba(20,20,22,.85);
+  border-left: 3px solid #8b0000;
+  border-radius: 4px;
+  padding: 6px;
+  margin: 6px 0;
+}
+
+/* ---- Avatar / friend thumbs ---- */
+#content img {
+  border: none;
+}
+
+#content .avatar,
+#content .friend img {
+  filter: drop-shadow(0 0 6px rgba(57,255,20,.45));
+}
+
+/* ---- Form bits (comment box, buttons) ---- */
+#content textarea,
+#content input[type="text"] {
+  background: #111;
+  color: #e0e0e0;
+  border: 1px solid #39ff14;
+  border-radius: 4px;
+}
+
+#content input[type="submit"],
+#content button {
+  background: #8b0000;
+  color: #fff;
+  border: 1px solid #ff2e3b;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#content input[type="submit"]:hover,
+#content button:hover {
+  background: #39ff14;
+  color: #000;
+}
+
+/* ---- Scrollbars inside panels (Chrome/Safari) ---- */
+#content ::-webkit-scrollbar { width: 8px; }
+#content ::-webkit-scrollbar-track { background: #0b0b0d; }
+#content ::-webkit-scrollbar-thumb { background: #39ff14; border-radius: 4px; }
