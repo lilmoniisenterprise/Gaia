@@ -1,0 +1,12 @@
+=== PLAIN TEXT (works now, BBCode locked) ===
+☣ ━━━━━━━━━━━━━━━━━━━━ ☣
+      L U C I E N   V A L E
+   neon blood • midnight soul
+☣ ━━━━━━━━━━━━━━━━━━━━ ☣
+"Some of us were born to glow in the dark."
+
+=== BBCODE (use after Gaia unlocks it) ===
+[align=center][color=#39ff14]☣ ━━━━━━━━━━━━━━━━━━━━ ☣[/color]
+[size=18][b][color=#39ff14]L U C I E N   V A L E[/color][/b][/size]
+[size=10][i][color=#aaff00]neon blood • midnight soul[/color][/i][/size]
+[color=#39ff14]☣ ━━━━━━━━━━━━━━━━━━━━ ☣[/color][/align]
